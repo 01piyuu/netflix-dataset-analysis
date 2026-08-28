@@ -69,3 +69,10 @@ Netflix-Dataset-Analysis/
 │
 ├── Netflix_dataset_analysis.ipynb
 └── README.md
+🎯 Objective
+
+The objective of this project is to apply Python-based data analysis techniques to a real-world dataset and communicate meaningful insights through data visualization.
+
+👩‍💻 Author
+
+Piyushi Yogi
