@@ -2,7 +2,7 @@
 
 ## 📊 Project Overview
 
-This project explores and analyzes the Netflix Movies and TV Shows dataset using Python. The goal is to understand Netflix's content library through data cleaning, exploratory data analysis (EDA), and visualizations.
+This project explores and analyzes the Netflix Movies and TV Shows dataset using Python. The goal is to understand Netflix's content library through data cleaning, exploratory data analysis (EDA), and data visualization.
 
 The analysis focuses on content types, release trends, countries, genres, ratings, movie duration, and other characteristics of Netflix titles.
 
@@ -12,66 +12,60 @@ The analysis focuses on content types, release trends, countries, genres, rating
 - Pandas
 - Matplotlib
 - Jupyter Notebook
-- Exploratory Data Analysis (EDA)
 
-## 🔍 Key Findings
+## 🔍 Key Areas of Analysis
 
-### 1. Netflix Content by Type
-The dataset contains both Movies and TV Shows, with Movies making up the larger share of the Netflix catalog.
+- Movies vs TV Shows
+- Content added to Netflix over the years
+- Release year trends
+- Content ratings
+- Movie runtime distribution
+- Content by rating and type
+- Top contributing directors
+- Country and genre analysis
 
-### 2. Netflix Titles by Release Year
-The number of Netflix titles increased significantly over time, with a major growth in content released during the 2010s.
+## 💡 Key Findings
 
-### 3. Top Countries by Number of Titles
-The United States has the highest number of titles represented in the dataset, followed by India and the United Kingdom.
+The analysis produced 10 key findings covering major patterns and trends in the Netflix dataset.
 
-### 4. Top Netflix Categories
-International Movies and Dramas are among the most common categories, followed by Comedies and International TV Shows.
+### Key Finding 1
+Analysis of the distribution of Movies and TV Shows in the Netflix content library.
 
-### 5. Netflix Titles by Rating
-TV-MA is the most common rating in the dataset, followed by TV-14, showing a strong presence of mature and teen-oriented content.
+### Key Finding 2
+Analysis of the countries contributing content to the Netflix dataset.
 
-### 6. Movies vs TV Shows by Release Year
-Movies generally have a larger presence than TV Shows across the dataset, although TV Shows also experienced substantial growth in later years.
+### Key Finding 3
+Analysis of the most common genres/categories available on Netflix.
 
-### 7. Netflix Titles Added by Year
-Netflix added the largest number of titles during the late 2010s, with additions peaking around 2019 before declining in subsequent years.
+### Key Finding 4
+Analysis of Netflix content added over time.
 
-### 8. Movie Runtime
-The average movie runtime is approximately 99.6 minutes, while the median runtime is 98 minutes. Most movies are concentrated around the 60–120 minute range.
+### Key Finding 5
+Analysis of Netflix titles by rating.
 
-### 9. Netflix Content by Rating and Type
-Movies dominate several rating categories, while TV Shows have a particularly strong representation in ratings such as TV-MA and TV-14.
+### Key Finding 6
+Analysis of Movies vs TV Shows by release year.
 
-### 10. Top Directors
-Rajiv Chilaka has the highest number of titles in the Netflix dataset with 19 titles, followed by Raúl Campos and Jan Suter with 18 titles.
+### Key Finding 7
+Analysis of Netflix titles added by year.
+
+### Key Finding 8
+The average movie runtime in the dataset is approximately 99.56 minutes, while the median runtime is 98 minutes. The distribution shows that most movies have runtimes concentrated around approximately 90–110 minutes, with fewer movies having very short or very long runtimes.
+
+### Key Finding 9
+Analysis of Netflix content by rating and content type shows differences between Movies and TV Shows across various rating categories.
+
+### Key Finding 10
+Rajiv Chilaka has the highest number of titles in the Netflix dataset with 19 titles, followed by Raúl Campos and Jan Suter with 18 titles. The top 10 directors have between 11 and 19 titles each, showing that Netflix's content library includes contributions from a diverse group of recurring directors.
 
 ## 📈 Visualizations
 
-The project includes visualizations showing:
+The project includes visualizations created using Matplotlib to identify patterns and trends within the Netflix dataset.
 
-- Netflix titles by release year
-- Top countries by number of titles
-- Top Netflix categories
-- Netflix titles by rating
-- Movies vs TV Shows by release year
-- Netflix titles added by year
-- Distribution of movie runtime
-- Netflix content by rating and type
-- Top directors
+## 📁 Project Structure
 
-## 🎯 Conclusion
-
-This analysis provides an overview of Netflix's content library and highlights major patterns in content production, ratings, countries, genres, release years, and movie duration.
-
-The project demonstrates practical skills in data cleaning, exploratory data analysis, Python programming, and data visualization.
-
-## 📁 Project Files
-
-- `Netflix_dataset_analysis.ipynb` — Complete analysis and visualizations
-
----
-
-**Project Type:** Exploratory Data Analysis  
-**Dataset:** Netflix Movies and TV Shows  
-**Created using:** Python & Jupyter Notebook
+```text
+Netflix-Dataset-Analysis/
+│
+├── Netflix_dataset_analysis.ipynb
+└── README.md
